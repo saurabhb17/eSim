@@ -1,0 +1,22 @@
+* /home/ash98/eSim-Workspace/74LS147-test/74LS147-test.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Thu Jan 16 10:33:38 2020
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+X1  MR Q0 Q0_inv D0 ? ? ? GND CLK ? ? ? ? ? ? Net-_X1-Pad16_ eSim_74LS175		
+v4  CLK GND pulse		
+U5  CLK plot_v1		
+v1  MR GND pulse		
+U1  MR plot_v1		
+v2  D0 GND pulse		
+U4  D0 plot_v1		
+R1  Q0 GND 1k		
+R2  Q0_inv GND 1k		
+v3  Net-_X1-Pad16_ GND DC		
+U2  Q0 plot_v1		
+U3  Q0_inv plot_v1		
+
+.end

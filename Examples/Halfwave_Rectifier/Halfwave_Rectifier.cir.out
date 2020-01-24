@@ -6,7 +6,7 @@ r1  out gnd 1k
 v1  in gnd sine(0 20 50 0 0)
 * u2  in plot_v1
 * u3  out plot_v1
-.tran 10e-03 100e-03 0e-03
+.tran 1e-04 100e-03 0e-03
 
 * Control Statements 
 .control

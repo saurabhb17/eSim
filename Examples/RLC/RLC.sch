@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:RLC-rescue
 LIBS:eSim_Analog
 LIBS:eSim_Devices
 LIBS:eSim_Digital
@@ -53,7 +54,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R1
+L R-RESCUE-RLC R1
 U 1 1 56C172A1
 P 4850 2700
 F 0 "R1" H 4900 2830 50  0000 C CNN
@@ -64,7 +65,7 @@ F 3 "" V 4900 2750 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L1
+L L-RESCUE-RLC L1
 U 1 1 56C172D6
 P 3800 3200
 F 0 "L1" H 5750 3700 50  0000 C CNN

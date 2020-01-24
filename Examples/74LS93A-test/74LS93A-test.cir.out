@@ -1,0 +1,31 @@
+* /home/ash98/esim-workspace/74ls93a-test/74ls93a-test.cir
+
+.include 74LS93A.sub
+x1 qa net-_x1-pad2_ net-_x1-pad3_ ? net-_x1-pad5_ ? ? qc qb gnd qd qa ? count 74LS93A
+v2  count gnd pulse(0 5 0 0 0 14e-6 28e-6)
+r1  qd gnd 1k
+r2  qc gnd 1k
+r3  qb gnd 1k
+r4  qa gnd 1k
+v1 net-_x1-pad5_ gnd  dc 5
+* u5  count plot_v1
+* u2  qa plot_v1
+* u3  qd plot_v1
+* u4  qb plot_v1
+* u1  qc plot_v1
+v4  net-_x1-pad3_ net-_x1-pad5_ 5
+v3  net-_x1-pad2_ net-_x1-pad5_ 0
+.tran 1e-06 500e-06 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(count)
+plot v(qa)
+plot v(qd)
+plot v(qb)
+plot v(qc)
+.endc
+.end

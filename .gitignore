@@ -1,0 +1,4 @@
+*.pyc
+nghdl*
+Examples/*/*_i.txt
+Examples/*/*_v.txt

@@ -1,0 +1,40 @@
+* /home/ash98/esim-workspace/74ls83a-test/74ls83a-test.cir
+
+.include 74LS83A.sub
+x1 net-_x1-pad1_ s3 net-_x1-pad3_ net-_x1-pad4_ net-_x1-pad5_ s2 net-_x1-pad7_ net-_x1-pad8_ s1 net-_x1-pad10_ net-_x1-pad11_ gnd net-_x1-pad13_ c4 s4 net-_x1-pad16_ 74LS83A
+v3  net-_x1-pad3_ gnd 5
+v4  net-_x1-pad1_ gnd 5
+v2  net-_x1-pad4_ gnd 0
+v1  net-_x1-pad7_ gnd 0
+v7  net-_x1-pad16_ gnd 5
+v8  net-_x1-pad11_ gnd 0
+v6  net-_x1-pad10_ gnd 5
+v5  net-_x1-pad8_ gnd 5
+r1  s3 gnd 1k
+r2  s2 gnd 1k
+r3  s1 gnd 1k
+r4  s4 gnd 1k
+r6  c4 gnd 1k
+* u3  s3 plot_v1
+* u2  s2 plot_v1
+* u1  s1 plot_v1
+* u6  c4 plot_v1
+* u5  ? plot_v1
+* u4  s4 plot_v1
+v9  net-_x1-pad13_ gnd 0
+v10 net-_x1-pad5_ gnd  dc 5
+.tran 1e-09 500e-09 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(s3)
+plot v(s2)
+plot v(s1)
+plot v(c4)
+plot v(?)
+plot v(s4)
+.endc
+.end
