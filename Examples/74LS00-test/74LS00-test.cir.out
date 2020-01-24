@@ -11,7 +11,7 @@ v3 net-_x1-pad14_ gnd  dc 5
 r3  out gnd 1k
 * u3  out plot_v1
 x1 net-_r1-pad2_ net-_r2-pad2_ out ? ? ? gnd ? ? ? ? ? ? net-_x1-pad14_ 74LS00
-.tran 0.1e-09 500e-09 0e-00
+.tran 0.1e-09 200e-09 0e-00
 
 * Control Statements 
 .control

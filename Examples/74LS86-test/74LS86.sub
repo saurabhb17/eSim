@@ -37,7 +37,7 @@ a6 [net-_u2-pad3_ net-_u3-pad3_ net-_u4-pad3_ net-_u5-pad3_ ] [net-_r1-pad1_ net
 * Schematic Name: d_xnor, NgSpice Name: d_xnor
 .model u5 d_xnor(fall_delay=1.0e-9 input_load=1.0e-12 rise_delay=1.0e-9 )
 * Schematic Name: dac_bridge_4, NgSpice Name: dac_bridge
-.model u6 dac_bridge(out_undef=0.5 out_low=0.0 out_high=5.0 t_rise=1.0e-16 t_fall=1.0e-16 input_load=1.0e-12 )
+.model u6 dac_bridge(out_undef=0.5 out_low=0.0 out_high=5.0 t_rise=1.0e-9 t_fall=1.0e-9 input_load=1.0e-12 )
 * Control Statements
 
 .ends 74LS86

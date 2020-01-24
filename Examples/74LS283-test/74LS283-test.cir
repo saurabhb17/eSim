@@ -1,31 +1,31 @@
-* /home/ash98/eSim-Workspace/74LS283-test/74LS283-test.cir
+* /home/sysad/Downloads/eSim-1.1.3/Examples/74LS283-test/74LS283-test.cir
 
-* EESchema Netlist Version 1.1 (Spice format) creation date: Thu Jan 16 14:43:40 2020
+* EESchema Netlist Version 1.1 (Spice format) creation date: Wed Jan 22 17:05:50 2020
 
 * To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
 * To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
 
 * Sheet Name: /
 X1  S2 Net-_X1-Pad2_ Net-_X1-Pad3_ S1 Net-_X1-Pad5_ Net-_X1-Pad6_ Net-_X1-Pad7_ GND C4 S4 Net-_X1-Pad11_ Net-_X1-Pad12_ S3 Net-_X1-Pad14_ Net-_X1-Pad15_ Net-_X1-Pad16_ eSim_74LS283		
-v5  Net-_X1-Pad6_ GND 5		
-v4  Net-_X1-Pad3_ GND 5		
-v8  Net-_X1-Pad12_ GND 5		
-v7  Net-_X1-Pad14_ GND 5		
 v2  Net-_X1-Pad5_ GND 0		
 v1  Net-_X1-Pad2_ GND 0		
-v10  Net-_X1-Pad11_ GND 0		
-v9  Net-_X1-Pad15_ GND 5		
+v10  Net-_X1-Pad11_ GND 5		
+v9  Net-_X1-Pad15_ GND 0		
 v6  Net-_X1-Pad16_ GND DC		
 R1  S2 GND 1k		
 R2  S1 GND 1k		
 R4  S4 GND 1k		
 R5  S3 GND 1k		
 R3  C4 GND 1k		
-v3  Net-_X1-Pad7_ GND 0		
+v3  Net-_X1-Pad7_ GND 5		
 U1  S2 plot_v1		
 U2  S1 plot_v1		
 U4  S3 plot_v1		
 U5  S4 plot_v1		
 U3  C4 plot_v1		
+v4  Net-_X1-Pad3_ GND pulse		
+v5  Net-_X1-Pad6_ GND pulse		
+v7  Net-_X1-Pad14_ GND pulse		
+v8  Net-_X1-Pad12_ GND pulse		
 
 .end
