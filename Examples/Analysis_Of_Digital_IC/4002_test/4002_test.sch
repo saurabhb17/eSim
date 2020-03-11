@@ -1,15 +1,17 @@
 EESchema Schematic File Version 2
+LIBS:4002_test-rescue
 LIBS:power
-LIBS:eSim_Analog
 LIBS:eSim_Devices
-LIBS:eSim_Digital
-LIBS:eSim_Hybrid
-LIBS:eSim_Miscellaneous
-LIBS:eSim_Plot
-LIBS:eSim_Power
-LIBS:eSim_Sources
-LIBS:eSim_Subckt
 LIBS:eSim_User
+LIBS:eSim_Subckt
+LIBS:eSim_Sources
+LIBS:eSim_Power
+LIBS:eSim_Plot
+LIBS:eSim_Miscellaneous
+LIBS:eSim_Hybrid
+LIBS:eSim_Digital
+LIBS:eSim_Analog
+LIBS:4002_test-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -373,7 +375,7 @@ F 3 "" V 7400 3450 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DC v6
+L DC-RESCUE-4002_test v6
 U 1 1 5CF1E4C8
 P 8200 3550
 F 0 "v6" H 8000 3650 60  0000 C CNN
@@ -384,7 +386,7 @@ F 3 "" H 8200 3550 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L DC v5
+L DC-RESCUE-4002_test v5
 U 1 1 5CF1E4C2
 P 8200 3650
 F 0 "v5" H 8000 3750 60  0000 C CNN
@@ -395,7 +397,7 @@ F 3 "" H 8200 3650 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L DC v8
+L DC-RESCUE-4002_test v8
 U 1 1 5CF1E4BC
 P 8200 3350
 F 0 "v8" H 8000 3450 60  0000 C CNN
@@ -406,7 +408,7 @@ F 3 "" H 8200 3350 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L DC v7
+L DC-RESCUE-4002_test v7
 U 1 1 5CF1E4B6
 P 8200 3450
 F 0 "v7" H 8000 3550 60  0000 C CNN
@@ -565,7 +567,7 @@ F 3 "" V 3600 3350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DC v4
+L DC-RESCUE-4002_test v4
 U 1 1 5CF1D11E
 P 2750 3550
 F 0 "v4" H 2550 3650 60  0000 C CNN
@@ -576,7 +578,7 @@ F 3 "" H 2750 3550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DC v3
+L DC-RESCUE-4002_test v3
 U 1 1 5CF1D0EF
 P 2750 3450
 F 0 "v3" H 2550 3550 60  0000 C CNN
@@ -587,7 +589,7 @@ F 3 "" H 2750 3450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DC v2
+L DC-RESCUE-4002_test v2
 U 1 1 5CF1D0C3
 P 2700 3350
 F 0 "v2" H 2500 3450 60  0000 C CNN
@@ -598,7 +600,7 @@ F 3 "" H 2700 3350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DC v1
+L DC-RESCUE-4002_test v1
 U 1 1 5CF1CE2E
 P 2700 3250
 F 0 "v1" H 2500 3350 60  0000 C CNN

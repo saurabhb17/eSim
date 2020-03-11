@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:4012_test-rescue
 LIBS:power
 LIBS:eSim_Analog
 LIBS:eSim_Devices
@@ -7,7 +8,6 @@ LIBS:eSim_Hybrid
 LIBS:eSim_Miscellaneous
 LIBS:eSim_Plot
 LIBS:eSim_Power
-LIBS:eSim_PSpice
 LIBS:eSim_Sources
 LIBS:eSim_User
 LIBS:eSim_Subckt
@@ -51,7 +51,7 @@ $EndComp
 NoConn ~ 4550 4350
 NoConn ~ 5600 3750
 $Comp
-L DC v1
+L DC-RESCUE-4012_test v1
 U 1 1 5CF2488C
 P 1900 3450
 F 0 "v1" H 1700 3550 60  0000 C CNN
@@ -62,7 +62,7 @@ F 3 "" H 1900 3450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DC v2
+L DC-RESCUE-4012_test v2
 U 1 1 5CF248E2
 P 1900 4000
 F 0 "v2" H 1700 4100 60  0000 C CNN
@@ -73,7 +73,7 @@ F 3 "" H 1900 4000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DC v3
+L DC-RESCUE-4012_test v3
 U 1 1 5CF24906
 P 1900 4550
 F 0 "v3" H 1700 4650 60  0000 C CNN
@@ -84,7 +84,7 @@ F 3 "" H 1900 4550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DC v4
+L DC-RESCUE-4012_test v4
 U 1 1 5CF24935
 P 1900 5100
 F 0 "v4" H 1700 5200 60  0000 C CNN
@@ -138,7 +138,7 @@ F 3 "" H 6450 4050 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DC v8
+L DC-RESCUE-4012_test v8
 U 1 1 5CF24B50
 P 8150 4650
 F 0 "v8" H 7950 4750 60  0000 C CNN
@@ -149,7 +149,7 @@ F 3 "" H 8150 4650 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DC v7
+L DC-RESCUE-4012_test v7
 U 1 1 5CF24B56
 P 8150 4100
 F 0 "v7" H 7950 4200 60  0000 C CNN
@@ -160,7 +160,7 @@ F 3 "" H 8150 4100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DC v6
+L DC-RESCUE-4012_test v6
 U 1 1 5CF24B5C
 P 8150 3550
 F 0 "v6" H 7950 3650 60  0000 C CNN
@@ -171,7 +171,7 @@ F 3 "" H 8150 3550 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DC v5
+L DC-RESCUE-4012_test v5
 U 1 1 5CF24B62
 P 8150 3000
 F 0 "v5" H 7950 3100 60  0000 C CNN

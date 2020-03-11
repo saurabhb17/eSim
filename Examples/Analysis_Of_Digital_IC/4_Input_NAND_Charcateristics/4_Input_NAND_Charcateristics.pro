@@ -1,4 +1,4 @@
-update=06/01/19 15:09:21
+update=Wed Mar 11 12:52:26 2020
 version=1
 last_client=eeschema
 [general]
@@ -31,15 +31,15 @@ NetIExt=net
 version=1
 LibDir=../../eSim/kicadSchematicLibrary
 [eeschema/libraries]
-LibName1=power
-LibName2=eSim_Analog
-LibName3=eSim_Devices
-LibName4=eSim_Digital
-LibName5=eSim_Hybrid
-LibName6=eSim_Miscellaneous
-LibName7=eSim_Plot
-LibName8=eSim_Power
-LibName9=eSim_PSpice
-LibName10=eSim_Sources
-LibName11=eSim_User
-LibName12=eSim_Subckt
+LibName1=4_Input_NAND_Charcateristics-rescue
+LibName2=power
+LibName3=eSim_Analog
+LibName4=eSim_Devices
+LibName5=eSim_Digital
+LibName6=eSim_Hybrid
+LibName7=eSim_Miscellaneous
+LibName8=eSim_Plot
+LibName9=eSim_Power
+LibName10=eSim_Subckt
+LibName11=eSim_Sources
+LibName12=eSim_User

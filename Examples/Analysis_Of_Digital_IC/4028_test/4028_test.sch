@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:4028_test-rescue
 LIBS:power
 LIBS:eSim_Analog
 LIBS:eSim_Devices
@@ -10,6 +11,7 @@ LIBS:eSim_Power
 LIBS:eSim_Sources
 LIBS:eSim_Subckt
 LIBS:eSim_User
+LIBS:4028_test-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -69,7 +71,7 @@ F 3 "" H 3800 5050 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DC v2
+L DC-RESCUE-4028_test v2
 U 1 1 5CF25946
 P 9400 3950
 F 0 "v2" H 9200 4050 60  0000 C CNN
@@ -80,7 +82,7 @@ F 3 "" H 9400 3950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DC v1
+L DC-RESCUE-4028_test v1
 U 1 1 5CF259A4
 P 9400 3400
 F 0 "v1" H 9200 3500 60  0000 C CNN
@@ -91,7 +93,7 @@ F 3 "" H 9400 3400 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DC v3
+L DC-RESCUE-4028_test v3
 U 1 1 5CF259F8
 P 9400 4500
 F 0 "v3" H 9200 4600 60  0000 C CNN
@@ -102,7 +104,7 @@ F 3 "" H 9400 4500 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DC v4
+L DC-RESCUE-4028_test v4
 U 1 1 5CF25A37
 P 9450 5000
 F 0 "v4" H 9250 5100 60  0000 C CNN
