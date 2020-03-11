@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #===============================================================================
 #
 #          FILE: openKicad.py
@@ -8,6 +9,8 @@
 #   DESCRIPTION: It calls kicad schematic
 # 
 =======
+=======
+>>>>>>> fellowship2019-python3
 # =========================================================================
 #          FILE: Kicad.py
 #
@@ -21,6 +24,7 @@
 #          BUGS: ---
 #         NOTES: ---
 #        AUTHOR: Fahim Khan, fahim.elex@gmail.com
+<<<<<<< HEAD
 <<<<<<< HEAD
 #      MODIFIED: Rahul Paknikar, rahulp@iitb.ac.in    
 #  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
@@ -50,6 +54,10 @@ class Kicad:
 =======
 #      MODIFIED: Rahul Paknikar, rahulp@iitb.ac.in
 #  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
+=======
+#      MODIFIED: Rahul Paknikar, rahulp@iitb.ac.in
+#  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
+>>>>>>> fellowship2019-python3
 #       CREATED: Tuesday 17 February 2015
 #      REVISION: Friday 14 February 2020
 # =========================================================================
@@ -89,7 +97,10 @@ class Kicad:
         @return
             True        => If the project's schematic is not open
             False       => If the project's schematic is open
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
         """
         if self.obj_workThread:
             procList = self.obj_workThread.get_proc_threads()[:]
@@ -217,6 +228,7 @@ class Kicad:
 <<<<<<< HEAD
             
         else:
+<<<<<<< HEAD
             self.msg = QtGui.QErrorMessage(None)
             self.msg.showMessage('Please select the project first. You can either create new project or open existing project')
             self.obj_appconfig.print_warning('Please select the project first. You can either create new project or open existing project')
@@ -225,6 +237,8 @@ class Kicad:
 =======
 
         else:
+=======
+>>>>>>> fellowship2019-python3
             self.msg = QtGui.QErrorMessage()
             self.msg.setModal(True)
             self.msg.setWindowTitle("Error Message")
@@ -314,6 +328,7 @@ class Kicad:
                 self.msg.setWindowTitle("Error Message")  
            
         else:
+<<<<<<< HEAD
             self.msg = QtGui.QErrorMessage(None)
             self.msg.showMessage('Please select the project first. You can either create new project or open existing project')
             self.obj_appconfig.print_warning('Please select the project first. You can either create new project or open existing project')
@@ -323,6 +338,8 @@ class Kicad:
 =======
 
         else:
+=======
+>>>>>>> fellowship2019-python3
             self.msg = QtGui.QErrorMessage()
             self.msg.setModal(True)
             self.msg.setWindowTitle("Error Message")
@@ -392,4 +409,7 @@ class Kicad:
             self.obj_appconfig.print_warning(
                 'Please select the project first. You can either ' +
                 'create new project or open existing project')
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3

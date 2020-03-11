@@ -1,6 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #===============================================================================
 #
+=======
+# =========================================================================
+>>>>>>> fellowship2019-python3
 #          FILE: Appconfig.py
 # 
 #         USAGE: --- 
@@ -22,6 +26,7 @@
 #         NOTES: ---
 #        AUTHOR: Fahim Khan, fahim.elex@gmail.com
 <<<<<<< HEAD
+<<<<<<< HEAD
 #  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
 #       CREATED: Wednesday 04 February 2015 
 #      REVISION:  ---
@@ -35,6 +40,14 @@
 # =========================================================================
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
 
+=======
+#      MODIFIED: Rahul Paknikar, rahulp@iitb.ac.in
+#  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
+#       CREATED: Tuesday 24 February 2015
+#      REVISION: Friday 14 February 2020
+# =========================================================================
+
+>>>>>>> fellowship2019-python3
 from PyQt4 import QtGui
 import os
 import json

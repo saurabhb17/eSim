@@ -1,6 +1,9 @@
 from PyQt4 import QtGui
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> fellowship2019-python3
 import os
 import shutil
 import TrackWidget
@@ -689,6 +692,7 @@ class Convert:
                             param = key
                             default = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
                         #Cheking if value is iterable.its for vector
                         if hasattr(value, '__iter__'):
                             addmodelLine += param+"=["
@@ -742,6 +746,8 @@ class Convert:
             print "No Library Added in the schematic"
             pass
 =======
+=======
+>>>>>>> fellowship2019-python3
                         # Checking if value is iterable.its for vector
                         if (
                             not isinstance(value, str) and
@@ -802,11 +808,15 @@ class Convert:
 
         if not deviceLibList:
             print("No library added in the schematic")
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
         else:
             for eachline in schematicInfo:
                 words = eachline.split()
                 if words[0] in deviceLibList:
+<<<<<<< HEAD
 <<<<<<< HEAD
                     # print "Found Library line"
                     index = schematicInfo.index(eachline)
@@ -885,6 +895,8 @@ class Convert:
             print "No Subcircuit Added in the schematic"
             pass
 =======
+=======
+>>>>>>> fellowship2019-python3
                     # print("Found Library line")
                     index = schematicInfo.index(eachline)
                     completeLibPath = deviceLibList[words[0]]
@@ -960,7 +972,10 @@ class Convert:
             raise Exception('All subcircuit directories need to be specified.')
         elif not subList:
             print("No Subcircuit Added in the schematic")
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
         else:
             for eachline in schematicInfo:
                 words = eachline.split()
@@ -1052,8 +1067,12 @@ class Convert:
             if child.tag == 'ref_model':
                 retVal = child.text
 <<<<<<< HEAD
+<<<<<<< HEAD
             else:
                 pass
+=======
+
+>>>>>>> fellowship2019-python3
         return retVal
         
         

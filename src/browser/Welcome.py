@@ -8,6 +8,7 @@ from PyQt4 import QtGui, QtCore
 class Welcome(QtGui.QWidget):
     """
 <<<<<<< HEAD
+<<<<<<< HEAD
     This class creates Welcome page of eSim.
     """
     def __init__(self):
@@ -21,6 +22,8 @@ class Welcome(QtGui.QWidget):
                 
         self.vlayout.addWidget(self.browser)  
 =======
+=======
+>>>>>>> fellowship2019-python3
     This class contains content of dock area part of initial esim Window.
     It creates Welcome page of eSim.
     """

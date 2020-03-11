@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 from __future__ import division         # Used for decimal division eg 2/3=0.66 and not '0' 6/2=3.0 and 6//2=3
 import os
 from PyQt4 import QtGui, QtCore
@@ -6,6 +7,8 @@ from decimal import Decimal,getcontext
 from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.backends.backend_qt4agg import NavigationToolbar2QT as NavigationToolbar
 =======
+=======
+>>>>>>> fellowship2019-python3
 from __future__ import division  # Used for decimal division
 # eg: 2/3=0.66 and not '0' 6/2=3.0 and 6//2=3
 import os

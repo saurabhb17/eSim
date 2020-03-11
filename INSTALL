@@ -11,20 +11,33 @@ Table of contents
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. eSim installation in Ubuntu.
+=======
+1. eSim installation in Ubuntu OS
+>>>>>>> fellowship2019-python3
     
-   After downloading eSim, extract it using: 
+   	After downloading eSim, extract it using: 
   
+<<<<<<< HEAD
    $ unzip eSim-1.1.3.zip
+=======
+   		$ unzip eSim-2.0.zip
+>>>>>>> fellowship2019-python3
 
-   Now change directories in to the top-level source directory (where this INSTALL file can be found).
+   	Now change directories in to the top-level eSim directory (where this INSTALL file can be found).
 
-   To install eSim and other dependecies run the following command.
+   	To install eSim and other dependencies, run the following command :
 
+<<<<<<< HEAD
    $ ./install-eSim.sh --install
+=======
+   		$ ./install-eSim.sh --install
+>>>>>>> fellowship2019-python3
 
-   Above script will install eSim along with dependencies.
+   	Above script will install eSim along with dependencies.
 
+<<<<<<< HEAD
    Please report any eSim installation related issue/error at forums.fossee.in
 =======
 1. eSim installation in Ubuntu OS
@@ -41,17 +54,23 @@ Table of contents
 
    	Above script will install eSim along with dependencies.
 
+=======
+>>>>>>> fellowship2019-python3
    	To uninstall eSim and all of its components, run the following command :
 
    		$ ./install-eSim.sh --uninstall
 
    	Please report any eSim installation related issue/error at forums.fossee.in
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
 
    How to Run eSim
    =================
    
    A. Through Terminal
+<<<<<<< HEAD
 <<<<<<< HEAD
    $ esim
 
@@ -59,15 +78,22 @@ Table of contents
 
    C. From command line : Do `cd src/fronEnd` and type `python2 Application.py` to open eSim.
 
+=======
+   		
+   		$ esim
 
-2. eSim installation in Windows
+   B. Double click eSim desktop icon
 
-   After downloading eSim for Windows from esim.fossee.in , extract it.
+>>>>>>> fellowship2019-python3
 
-   Now right click the `Setup.exe` and `run it as Administrator`. And then follow the instruction.
 
-   Note : Please make you run it as administrator otherwise it won't set the environment variable properly.
+2. eSim installation in Windows OS
 
+   Download eSim for Windows OS from "https://esim.fossee.in/". Disable the antivirus (if any).
+
+   Now double click on eSim installer and then follow the instruction to install eSim.
+
+<<<<<<< HEAD
 =======
    		
    		$ esim
@@ -84,4 +110,7 @@ Table of contents
 
    To uninstall eSim and all of its components, run the uninstaller "uninst-eSim.exe" located at top-level eSim directory (where this INSTALL file can be found).
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+   To uninstall eSim and all of its components, run the uninstaller "uninst-eSim.exe" located at top-level eSim directory (where this INSTALL file can be found).
+>>>>>>> fellowship2019-python3
 

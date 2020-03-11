@@ -2,9 +2,12 @@ from PyQt4 import QtGui
 import os
 from xml.etree import ElementTree as ET
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import TrackWidget
 =======
+=======
+>>>>>>> fellowship2019-python3
 from . import TrackWidget
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
 

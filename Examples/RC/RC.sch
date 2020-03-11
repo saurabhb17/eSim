@@ -54,6 +54,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
+<<<<<<< HEAD
 L eSim_C C1
 U 1 1 5E3E2C6D
 P 6000 3600
@@ -62,6 +63,16 @@ F 1 "1u" H 6025 3500 50  0000 L CNN
 F 2 "" H 6038 3450 30  0000 C CNN
 F 3 "" H 6000 3600 60  0000 C CNN
 	1    6000 3600
+=======
+L R-RESCUE-RC R1
+U 1 1 56B86791
+P 5750 3050
+F 0 "R1" H 5800 3180 50  0000 C CNN
+F 1 "1k" H 5800 3100 50  0000 C CNN
+F 2 "" H 5800 3030 30  0000 C CNN
+F 3 "" V 5800 3100 30  0000 C CNN
+	1    5750 3050
+>>>>>>> fellowship2019-python3
 	1    0    0    -1  
 $EndComp
 $Comp

@@ -1,6 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #===============================================================================
 #
+=======
+# =========================================================================
+>>>>>>> fellowship2019-python3
 #          FILE: WorkerThread.py
 # 
 #         USAGE: --- 
@@ -24,15 +28,21 @@
 #      MODIFIED: Rahul Paknikar, rahulp@iitb.ac.in
 #  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
 <<<<<<< HEAD
+<<<<<<< HEAD
 #       CREATED: Tuesday 24 Feb 2015
 #      REVISION: Thursday 3 Oct 2019
 #===============================================================================
 =======
+=======
+>>>>>>> fellowship2019-python3
 #       CREATED: Tuesday 24 February 2015
 #      REVISION: Friday 14 February 2020
 # =========================================================================
 
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
 from PyQt4 import QtCore
 import subprocess
 from configuration.Appconfig import Appconfig

@@ -1,9 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import sys
+=======
+>>>>>>> fellowship2019-python3
 import os
 import re 
 import json
-from string import maketrans
 
 class NgMoConverter:
     
@@ -58,6 +60,7 @@ class NgMoConverter:
                 print("Error in opening file")
                 print(str(e))
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sys.exit()
         else:
             print filename + " does not exist"
@@ -67,6 +70,11 @@ class NgMoConverter:
         else:
             raise FileNotFoundError(filename + " does not exist")
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+                raise
+        else:
+            raise FileNotFoundError(filename + " does not exist")
+>>>>>>> fellowship2019-python3
 
         data = f.read()
         data = data.splitlines()
@@ -257,10 +265,15 @@ class NgMoConverter:
 <<<<<<< HEAD
                 except:
                     print("Error in opening file")
-                    sys.exit()
+                    raise
             else:
+<<<<<<< HEAD
                 print filename + " does not exist"
                 sys.exit()
+=======
+                raise FileNotFoundError(filename + " does not exist")
+
+>>>>>>> fellowship2019-python3
             data = f.read()
             data = data.replace('+', '').replace('\n','').replace(' = ','=').replace('= ','=').replace(' =','=')
             #data = data.lower() #Won't work if Reference model name is Upper Case     
@@ -357,7 +370,11 @@ class NgMoConverter:
             final_line = ','.join(line)
             stat = 'parameter Real ' + final_line + ';'
 <<<<<<< HEAD
+<<<<<<< HEAD
             stat = stat.translate(maketrans('{}', '  '))
+=======
+            stat = stat.translate(str.maketrans('{}', '  '))
+>>>>>>> fellowship2019-python3
             modelicaParam.append(stat)
         return modelicaParam
     
@@ -1480,7 +1497,11 @@ class NgMoConverter:
             appen_param = ','.join(appen_line)
             paramLine = 'parameter Real ' + appen_param + ';'
 <<<<<<< HEAD
+<<<<<<< HEAD
             paramLine = paramLine.translate(maketrans('{}', '  '))
+=======
+            paramLine = paramLine.translate(str.maketrans('{}', '  '))
+>>>>>>> fellowship2019-python3
             subParamInfo.append(paramLine)
         return subParamInfo
     
@@ -2065,6 +2086,7 @@ class NgMoConverter:
                 out.writelines('end '+ newfilename + ';')
                 out.writelines('\n')
                 out.close()
+<<<<<<< HEAD
             
         return data, subOptionInfo, subSchemInfo, subModel, subModelInfo, subsubName, \
             subParamInfo, modelicaSubCompInit, modelicaSubParam, nodeSubInterface, nodeSub, nodeDicSub, pinInitSub, connSubInfo         
@@ -2213,6 +2235,8 @@ if __name__ == '__main__':
                 out.writelines('end ' + newfilename + ';')
                 out.writelines('\n')
                 out.close()
+=======
+>>>>>>> fellowship2019-python3
 
         return (
             data,
@@ -2230,4 +2254,7 @@ if __name__ == '__main__':
             pinInitSub,
             connSubInfo
         )
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3

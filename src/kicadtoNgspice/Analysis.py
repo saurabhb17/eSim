@@ -1,5 +1,6 @@
 from PyQt4 import QtGui, QtCore
 <<<<<<< HEAD
+<<<<<<< HEAD
 import TrackWidget
 import os
 from xml.etree import ElementTree as ET
@@ -43,6 +44,8 @@ class Analysis(QtGui.QWidget):
             contentlist= content.split() 
             if contentlist[0]== '.ac':
 =======
+=======
+>>>>>>> fellowship2019-python3
 from . import TrackWidget
 import os
 from xml.etree import ElementTree as ET
@@ -124,6 +127,7 @@ class Analysis(QtGui.QWidget):
                 self.dcbox.setVisible(False)
                 self.trbox.setVisible(False)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.track_obj.set_CheckBox["ITEMS"]="AC"
                 if contentlist[1]== 'lin':
                     self.Lin.setChecked(True)
@@ -137,6 +141,8 @@ class Analysis(QtGui.QWidget):
                 
             elif contentlist[0]== '.dc':
 =======
+=======
+>>>>>>> fellowship2019-python3
                 self.track_obj.set_CheckBox["ITEMS"] = "AC"
                 if contentlist[1] == 'lin':
                     self.Lin.setChecked(True)
@@ -159,10 +165,13 @@ class Analysis(QtGui.QWidget):
                 self.acbox.setVisible(False)
                 self.trbox.setVisible(False)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.track_obj.set_CheckBox["ITEMS"]="DC"
                 
             elif contentlist[0]== '.tran':
 =======
+=======
+>>>>>>> fellowship2019-python3
                 self.track_obj.set_CheckBox["ITEMS"] = "DC"
 
             elif contentlist[0] == '.tran':
@@ -176,10 +185,13 @@ class Analysis(QtGui.QWidget):
                 self.dcbox.setVisible(False)
                 self.acbox.setVisible(False)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.track_obj.set_CheckBox["ITEMS"]="TRAN"
                 
             elif contentlist[0]== '.op':
 =======
+=======
+>>>>>>> fellowship2019-python3
                 self.track_obj.set_CheckBox["ITEMS"] = "TRAN"
 
             elif contentlist[0] == '.op':
@@ -274,9 +286,12 @@ class Analysis(QtGui.QWidget):
             self.dcbox.setVisible(False)
             self.trbox.setVisible(False)
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.track_obj.set_CheckBox["ITEMS"]="AC"
         
 =======
+=======
+>>>>>>> fellowship2019-python3
             self.track_obj.set_CheckBox["ITEMS"] = "AC"
 
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
@@ -289,9 +304,12 @@ class Analysis(QtGui.QWidget):
             self.acbox.setVisible(False)
             self.trbox.setVisible(False)
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.track_obj.set_CheckBox["ITEMS"]="DC"
         
 =======
+=======
+>>>>>>> fellowship2019-python3
             self.track_obj.set_CheckBox["ITEMS"] = "DC"
 
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
@@ -303,6 +321,7 @@ class Analysis(QtGui.QWidget):
             self.trbox.setVisible(True)
             self.acbox.setVisible(False)
             self.dcbox.setVisible(False)
+<<<<<<< HEAD
 <<<<<<< HEAD
             self.track_obj.set_CheckBox["ITEMS"]="TRAN"
                  
@@ -329,6 +348,8 @@ class Analysis(QtGui.QWidget):
         self.acgrid = QtGui.QGridLayout()
         self.radiobuttongroup= QtGui.QButtonGroup()
 =======
+=======
+>>>>>>> fellowship2019-python3
             self.track_obj.set_CheckBox["ITEMS"] = "TRAN"
 
     def createACgroup(self):
@@ -669,7 +690,10 @@ class Analysis(QtGui.QWidget):
         except BaseException:
             check = 0
             print("DC Previous Values XML is empty")
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
 
         self.dcbox = QtGui.QGroupBox()
         self.dcbox.setTitle("DC Analysis")
@@ -1039,23 +1063,30 @@ class Analysis(QtGui.QWidget):
                 self.dc_entry_var[2].setText(root[1][2].text)
                 self.dc_entry_var[3].setText(root[1][3].text)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 index=self.start_combo.findText(root[1][5].text)
                 self.start_combo.setCurrentIndex(index)
                 index=self.increment_combo.findText(root[1][6].text)
                 self.increment_combo.setCurrentIndex(index)
                 index=self.stop_combo.findText(root[1][7].text)
 =======
+=======
+>>>>>>> fellowship2019-python3
                 index = self.start_combo.findText(root[1][5].text)
                 self.start_combo.setCurrentIndex(index)
                 index = self.increment_combo.findText(root[1][6].text)
                 self.increment_combo.setCurrentIndex(index)
                 index = self.stop_combo.findText(root[1][7].text)
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
                 self.stop_combo.setCurrentIndex(index)
                 self.dc_entry_var[4].setText(root[1][8].text)
                 self.dc_entry_var[5].setText(root[1][9].text)
                 self.dc_entry_var[6].setText(root[1][10].text)
                 self.dc_entry_var[7].setText(root[1][11].text)
+<<<<<<< HEAD
 <<<<<<< HEAD
                 index=self.start_combo2.findText(root[1][12].text)
                 self.start_combo2.setCurrentIndex(index)
@@ -1093,6 +1124,8 @@ class Analysis(QtGui.QWidget):
 
     def setflag(self):
 =======
+=======
+>>>>>>> fellowship2019-python3
                 index = self.start_combo2.findText(root[1][12].text)
                 self.start_combo2.setCurrentIndex(index)
                 index = self.increment_combo2.findText(root[1][13].text)
@@ -1356,6 +1389,7 @@ class Analysis(QtGui.QWidget):
                 self.tran_entry_var[1].setText(root[2][1].text)
                 self.tran_entry_var[2].setText(root[2][2].text)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 index=self.start_combobox.findText(root[2][3].text)
                 self.start_combobox.setCurrentIndex(index)
                 index=self.step_combobox.findText(root[2][4].text)
@@ -1381,6 +1415,12 @@ class Analysis(QtGui.QWidget):
                 self.start_combobox.setCurrentIndex(index)
                 index = self.step_combobox.findText(root[2][4].text)
                 self.step_combobox.setCurrentIndex(index)
+=======
+                index = self.start_combobox.findText(root[2][3].text)
+                self.start_combobox.setCurrentIndex(index)
+                index = self.step_combobox.findText(root[2][4].text)
+                self.step_combobox.setCurrentIndex(index)
+>>>>>>> fellowship2019-python3
                 index = self.stop_combobox.findText(root[2][5].text)
                 self.stop_combobox.setCurrentIndex(index)
             except BaseException:

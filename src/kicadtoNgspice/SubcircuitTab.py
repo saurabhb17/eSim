@@ -1,8 +1,11 @@
 from PyQt4 import QtGui
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import TrackWidget
 =======
+=======
+>>>>>>> fellowship2019-python3
 from . import TrackWidget
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
 from projManagement import Validation
@@ -138,6 +141,7 @@ class SubcircuitTab(QtGui.QWidget):
                 try:
                     for child in root:
 <<<<<<< HEAD
+<<<<<<< HEAD
                         if child.tag[0]==eachline[0] and child.tag[1]==eachline[1]:
                             # print "Subcircuit MATCHING---",child.tag[0],child.tag[1],eachline[0],eachline[1]
                             try:
@@ -248,6 +252,14 @@ class SubcircuitTab(QtGui.QWidget):
                             #       child.tag[1], eachline[0],eachline[1])
                             try:
                                 if os.path.exists(child[0].text):
+=======
+                        if child.tag[0] == eachline[0] \
+                                and child.tag[1] == eachline[1]:
+                            # print("Subcircuit MATCHING---", child.tag[0], \
+                            #       child.tag[1], eachline[0],eachline[1])
+                            try:
+                                if os.path.exists(child[0].text):
+>>>>>>> fellowship2019-python3
                                     self.entry_var[self.count] \
                                         .setText(child[0].text)
                                     path_name = child[0].text
@@ -376,4 +388,7 @@ class SubcircuitTab(QtGui.QWidget):
                 "Please select a valid Subcircuit directory "
                 "(Containing '.sub' file).")
             self.msg.exec_()
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3

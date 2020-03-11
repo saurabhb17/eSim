@@ -10,7 +10,12 @@ class PrcocessNetlist:
     This class include all the function required for pre-proccessing of netlist 
     before converting to Ngspice Netlist.
     """
+<<<<<<< HEAD
     modelxmlDIR = '../modelParamXML'
+=======
+    modelxmlDIR = 'library/modelParamXML'
+
+>>>>>>> fellowship2019-python3
     def __init__(self):
         pass
       
@@ -20,6 +25,7 @@ class PrcocessNetlist:
         f.close()
         return data.splitlines()
 
+<<<<<<< HEAD
     def readParamInfo(self,kicadNetlis):
         """Read Parameter information and store it into dictionary"""
         param={}
@@ -173,6 +179,8 @@ class PrcocessNetlist:
     def __init__(self):
         pass
 
+=======
+>>>>>>> fellowship2019-python3
     def readNetlist(self, filename):
         """
         - Read the circuit file and return splitted lines
@@ -481,12 +489,15 @@ class PrcocessNetlist:
                     elif count == 1:
                         try:
 <<<<<<< HEAD
+<<<<<<< HEAD
                             print "Start Parsing Previous Values XML for ngspice model :",modelPath  
                             tree = ET.parse(modelPath[0])
                             
                             root = tree.getroot()
                             #Getting number of nodes for model and title
 =======
+=======
+>>>>>>> fellowship2019-python3
                             # print("==========================================\
                             #     ===========================")
                             print(

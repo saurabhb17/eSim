@@ -161,6 +161,7 @@ class Source(QtGui.QWidget):
                     self.entry_var[self.count + 1].setMaximumWidth(150)
                     acgrid.addWidget(
                         self.entry_var[self.count+1], self.row + 1, 1)
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
                     self.entry_var[self.count].setText("")
                     self.entry_var[self.count+1].setText("")
@@ -398,6 +399,12 @@ class Source(QtGui.QWidget):
       
         
 =======
+=======
+                    self.entry_var[self.count].setText("")
+                    self.entry_var[self.count+1].setText("")
+                    try:
+                        for child in root:
+>>>>>>> fellowship2019-python3
                             templist1 = line[1]
                             templist2 = templist1.split(' ')
 

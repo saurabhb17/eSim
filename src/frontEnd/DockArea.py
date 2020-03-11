@@ -115,7 +115,10 @@ class DockArea(QtGui.QMainWindow):
         """This function create widget for Library Editor"""
         global count
 
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
         self.testWidget = QtGui.QWidget()
         self.testArea = QtGui.QTextEdit()
         self.testLayout = QtGui.QVBoxLayout()
@@ -556,7 +559,10 @@ class DockArea(QtGui.QMainWindow):
 
     def modelicaEditor(self, projDir):
         """This function sets up the UI for ngspice to modelica conversion."""
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
         global count
         self.modelicaWidget = QtGui.QWidget()
         self.modelicaLayout = QtGui.QVBoxLayout()

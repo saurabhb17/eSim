@@ -1,6 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #===============================================================================
 #
+=======
+# =========================================================================
+>>>>>>> fellowship2019-python3
 #          FILE: Application.py
 # 
 #         USAGE: --- 
@@ -22,6 +26,7 @@
 #         NOTES: ---
 #        AUTHOR: Fahim Khan, fahim.elex@gmail.com
 <<<<<<< HEAD
+<<<<<<< HEAD
 #      MODIFIED: Rahul Paknikar, rahulp@iitb.ac.in    
 #  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
 #       CREATED: Tuesday 24 Feb 2015 
@@ -35,6 +40,8 @@ cwd = os.getcwd()
 sys.path.append(setPath)
 
 =======
+=======
+>>>>>>> fellowship2019-python3
 #      MODIFIED: Rahul Paknikar, rahulp@iitb.ac.in
 #  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
 #       CREATED: Tuesday 24 February 2015
@@ -42,7 +49,10 @@ sys.path.append(setPath)
 # =========================================================================
 
 from frontEnd import pathmagic  # noqa
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
 from PyQt4 import QtGui, QtCore
 from configuration.Appconfig import Appconfig
 from projManagement.openProject import OpenProjectInfo
@@ -124,11 +134,17 @@ class Application(QtGui.QMainWindow):
 <<<<<<< HEAD
         self.setWindowTitle(self.obj_appconfig._APPLICATION) 
         self.showMaximized()
+<<<<<<< HEAD
         self.setWindowIcon(QtGui.QIcon('../../images/logo.png'))
         #self.show()
+=======
+        self.setWindowIcon(QtGui.QIcon('images/logo.png'))
+
+>>>>>>> fellowship2019-python3
         self.systemTrayIcon = QtGui.QSystemTrayIcon(self)
-        self.systemTrayIcon.setIcon(QtGui.QIcon('../../images/logo.png'))
+        self.systemTrayIcon.setIcon(QtGui.QIcon('images/logo.png'))
         self.systemTrayIcon.setVisible(True)
+<<<<<<< HEAD
     
            
     def initToolBar(self):
@@ -223,6 +239,11 @@ class Application(QtGui.QMainWindow):
 
     def initToolBar(self):
         """
+=======
+
+    def initToolBar(self):
+        """
+>>>>>>> fellowship2019-python3
         This function initializes Tool Bars.
         It setups the icons, short-cuts and defining functonality for:
 
@@ -642,9 +663,15 @@ class Application(QtGui.QMainWindow):
         This functions checks whether proper fp-lib-table* files are \
         available or not. If not, then move appropriate files from \
         library/supportFiles folder and set `self.online_flag` accordingly.
+<<<<<<< HEAD
 
         @params
 
+=======
+
+        @params
+
+>>>>>>> fellowship2019-python3
         @return
             None
         """
@@ -871,12 +898,16 @@ class Application(QtGui.QMainWindow):
         """
         print("Function : NGHDL")
         self.obj_appconfig.print_info('NGHDL is called')
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
 
         if self.obj_validation.validateTool('nghdl'):
             self.cmd = 'nghdl -e'
             self.obj_workThread = Worker.WorkerThread(self.cmd)
             self.obj_workThread.start()
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         else:
@@ -917,6 +948,9 @@ class Application(QtGui.QMainWindow):
                         #Creating command to run OMEdit
 =======
         else:
+=======
+        else:
+>>>>>>> fellowship2019-python3
             self.msg = QtGui.QErrorMessage()
             self.msg.setModal(True)
             self.msg.setWindowTitle('NGHDL Error')
@@ -967,18 +1001,24 @@ class Application(QtGui.QMainWindow):
                     self.obj_workThread1.start()
                     if self.obj_validation.validateTool("OMEdit"):
                         # Creating command to run OMEdit
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
                         self.cmd2 = "OMEdit "+self.modelicaNetlist
                         self.obj_workThread2 = Worker.WorkerThread(self.cmd2)
                         self.obj_workThread2.start()
                     else:
                         self.msg = QtGui.QMessageBox()
 <<<<<<< HEAD
+<<<<<<< HEAD
                         self.msgContent = "There was an error while opening OMEdit.<br/>\
                         Please make sure OpenModelica is installed in your system. <br/>\
                         To install it on Linux : Go to <a href=https://www.openmodelica.org/download/download-linux>OpenModelica Linux</a> and install nigthly build release.<br/>\
                         To install it on Windows : Go to <a href=https://www.openmodelica.org/download/download-windows>OpenModelica Windows</a> and install latest version.<br/>"
 =======
+=======
+>>>>>>> fellowship2019-python3
                         self.msgContent = "There was an error while
                             opening OMEdit.<br/>\
                         Please make sure OpenModelica is installed in your\
@@ -991,12 +1031,16 @@ class Application(QtGui.QMainWindow):
                          <a href=https://www.openmodelica.org/download/\
                         download-windows>OpenModelica Windows</a>\
                          and install latest version.<br/>"
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
                         self.msg.setTextFormat(QtCore.Qt.RichText)
                         self.msg.setText(self.msgContent)
                         self.msg.setWindowTitle("Missing OpenModelica")
                         self.obj_appconfig.print_info(self.msgContent)
                         self.msg.exec_()
+<<<<<<< HEAD
 <<<<<<< HEAD
                                   
                 except Exception as e:
@@ -1004,6 +1048,8 @@ class Application(QtGui.QMainWindow):
                     self.msg.showMessage('Unable to convert NgSpice netlist to Modelica netlist :'+str(e))
                     self.msg.setWindowTitle("Ngspice to Modelica conversion error")
 =======
+=======
+>>>>>>> fellowship2019-python3
 
                 except Exception as e:
                     self.msg = QtGui.QErrorMessage()
@@ -1014,7 +1060,10 @@ class Application(QtGui.QMainWindow):
                         'Unable to convert NgSpice netlist to\
                             Modelica netlist :'+str(e))
                     self.msg.exec_()
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
                     self.obj_appconfig.print_error(str(e))
                 """
 
@@ -1096,7 +1145,10 @@ class Application(QtGui.QMainWindow):
                 "https://www.openmodelica.org/download/download-windows"
                 ">OpenModelica Windows</a> and install latest version.<br/>"
             )
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
             self.msg.setTextFormat(QtCore.Qt.RichText)
             self.msg.setText(self.msgContent)
             self.msg.setWindowTitle("Error Message")
@@ -1278,7 +1330,10 @@ def main(args):
     sys.exit(app.exec_())
 
 
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
 # Call main function
 if __name__ == '__main__':
     # Create and display the splash screen

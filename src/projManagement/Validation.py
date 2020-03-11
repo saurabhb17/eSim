@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #===============================================================================
 #
+=======
+# =========================================================================
+>>>>>>> fellowship2019-python3
 #          FILE: Validation.py
 # 
 #         USAGE: --- 
@@ -24,6 +28,7 @@
 #         NOTES: ---
 #        AUTHOR: Fahim Khan, fahim.elex@gmail.com
 <<<<<<< HEAD
+<<<<<<< HEAD
 #  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
 #       CREATED: Wednesday 12 February 2015 
 #      REVISION:  ---
@@ -33,6 +38,10 @@ import re
 =======
 #      MODIFIED: Rahul Paknikar, rahulp@iitb.ac.in
 #  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
+=======
+#      MODIFIED: Rahul Paknikar, rahulp@iitb.ac.in
+#  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
+>>>>>>> fellowship2019-python3
 #       CREATED: Wednesday 12 February 2015
 #      REVISION: Friday 14 February 2020
 # =========================================================================
@@ -88,6 +97,7 @@ class Validation:
         else:
             return False
 <<<<<<< HEAD
+<<<<<<< HEAD
        
         
     
@@ -125,6 +135,8 @@ class Validation:
         lookCir = os.path.join(str(projDir),projName+".cir")
         #Check existence of project
 =======
+=======
+>>>>>>> fellowship2019-python3
 
     def validateNewproj(self, projDir):
         """

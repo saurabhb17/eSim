@@ -155,4 +155,7 @@ class NewSub(QtGui.QWidget):
             self.msg.setWindowTitle("Error Message")
             self.msg.showMessage('The subcircuit name cannot be empty')
             self.msg.exec_()
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3

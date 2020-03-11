@@ -219,6 +219,7 @@ class ProjectExplorer(QtGui.QWidget):
         self.save.setDisabled(True)
         self.windowgrid = QtGui.QGridLayout()
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (os.path.isfile(str(self.filePath)))== True:
             self.fopen = open(str(self.filePath), 'r')
             lines = self.fopen.read()
@@ -227,6 +228,8 @@ class ProjectExplorer(QtGui.QWidget):
             QtCore.QObject.connect(self.text,QtCore.SIGNAL("textChanged()"), self.enable_save)        
             
 =======
+=======
+>>>>>>> fellowship2019-python3
 
         if (os.path.isfile(str(self.filePath))):
             self.fopen = open(str(self.filePath), 'r')
@@ -486,4 +489,7 @@ class ProjectExplorer(QtGui.QWidget):
                         'contain space between them'
                     )
                     msg.exec_()
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3

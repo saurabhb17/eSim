@@ -170,6 +170,7 @@ class ModelEditorclass(QtGui.QWidget):
 <<<<<<< HEAD
         except:
             pass
+<<<<<<< HEAD
         os.chdir(self.savepathtest)
         text, ok = QtGui.QInputDialog.getText(self, 'New Model','Enter Model Name:')
         if ok:
@@ -177,6 +178,8 @@ class ModelEditorclass(QtGui.QWidget):
 =======
         except BaseException:
             pass
+=======
+>>>>>>> fellowship2019-python3
 
         # Opens new dialog box
         text, ok = QtGui.QInputDialog.getText(
@@ -412,6 +415,7 @@ class ModelEditorclass(QtGui.QWidget):
                 path = os.path.join(self.path, 'CORE.xml')
                 self.createtable(path)
 <<<<<<< HEAD
+<<<<<<< HEAD
         else :
             pass
         
@@ -419,6 +423,8 @@ class ModelEditorclass(QtGui.QWidget):
         os.chdir(self.savepathtest)
         self.newflag=0
 =======
+=======
+>>>>>>> fellowship2019-python3
 
     def openedit(self):
         '''
@@ -682,7 +688,7 @@ class ModelEditorclass(QtGui.QWidget):
             ET.SubElement(param, tags).text = text
         tree = ET.ElementTree(root)
         defaultcwd = os.getcwd()
-        self.savepath = '../deviceModelLibrary'
+        self.savepath = 'library/deviceModelLibrary'
         if self.diode.isChecked():
             savepath = os.path.join(self.savepath, 'Diode')  
             os.chdir(savepath)
@@ -909,6 +915,7 @@ class ModelEditorclass(QtGui.QWidget):
             if newfilename in all_files:
                 self.msg = QtGui.QErrorMessage(self)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.msg.showMessage('The file with name ' + text+ ' already exists.')
                 self.msg.setWindowTitle("Error Message")
 
@@ -928,6 +935,8 @@ class ModelEditorclass(QtGui.QWidget):
         libfile.close()
        
 =======
+=======
+>>>>>>> fellowship2019-python3
                 self.msg.setModal(True)
                 self.msg.setWindowTitle("Error Message")
                 self.msg.showMessage(
@@ -1015,7 +1024,10 @@ class ModelEditorclass(QtGui.QWidget):
         - Save it in `User Libraries` with the given name,
         and input from uploaded file
         '''
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
         self.addbtn.setHidden(True)
         self.removebtn.setHidden(True)
         self.modeltable.setHidden(True)

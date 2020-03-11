@@ -27,7 +27,11 @@ F0 "C" 25 100 50 H V L CNN
 F1 "eSim_CP1" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+<<<<<<< HEAD
 ALIAS capacitor
+=======
+ALIAS capacitor_polarised
+>>>>>>> fellowship2019-python3
 $FPLIST
  CP_*
 $ENDFPLIST
@@ -111,7 +115,11 @@ F0 "M" 0 -150 50 H V R CNN
 F1 "eSim_MOS_N" 100 -50 50 H V R CNN
 F2 "" 300 -300 29 H V C CNN
 F3 "" 100 -200 60 H V C CNN
+<<<<<<< HEAD
 ALIAS mosfet
+=======
+ALIAS mosfet_n
+>>>>>>> fellowship2019-python3
 DRAW
 C 150 -200 111 0 1 10 N
 P 2 0 1 10 130 -290 130 -250 N
@@ -139,7 +147,11 @@ F0 "M" -50 50 50 H V R CNN
 F1 "eSim_MOS_P" 50 150 50 H V R CNN
 F2 "" 250 100 29 H V C CNN
 F3 "" 50 0 60 H V C CNN
+<<<<<<< HEAD
 ALIAS mosfet
+=======
+ALIAS mosfet_p
+>>>>>>> fellowship2019-python3
 DRAW
 C 100 0 111 0 1 10 N
 P 2 0 1 0 80 -70 150 -70 N
@@ -167,7 +179,11 @@ F0 "J" -100 50 50 H V R CNN
 F1 "eSim_NJF" -50 150 50 H V R CNN
 F2 "" 200 100 29 H V C CNN
 F3 "" 0 0 60 H V C CNN
+<<<<<<< HEAD
 ALIAS jfet
+=======
+ALIAS jfet_n
+>>>>>>> fellowship2019-python3
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 10 10 75 10 -75 10 -75 N
@@ -207,7 +223,11 @@ F0 "J" -100 50 50 H V R CNN
 F1 "eSim_PJF" -50 150 50 H V R CNN
 F2 "" 200 100 29 H V C CNN
 F3 "" 0 0 60 H V C CNN
+<<<<<<< HEAD
 ALIAS jfet
+=======
+ALIAS jfet_p
+>>>>>>> fellowship2019-python3
 DRAW
 C 50 0 111 0 1 10 N
 P 3 0 1 10 10 75 10 -75 10 -75 N
@@ -242,7 +262,11 @@ ENDDEF
 # eSim_R
 #
 DEF eSim_R R 0 0 N Y 1 F N
+<<<<<<< HEAD
 F0 "R" 50 130 50 H V C CNN
+=======
+F0 "R" 50 13  0 50 H V C CNN
+>>>>>>> fellowship2019-python3
 F1 "eSim_R" 50 -50 50 H V C CNN
 F2 "" 50 -20 30 H V C CNN
 F3 "" 50 50 30 V V C CNN

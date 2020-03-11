@@ -95,4 +95,7 @@ class convertSub(QtGui.QWidget):
                 'new subcircuit or open existing subcircuit'
             )
             self.msg.exec_()
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3

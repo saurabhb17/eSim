@@ -1,6 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #===============================================================================
 #
+=======
+# =========================================================================
+>>>>>>> fellowship2019-python3
 #          FILE: kicadtoNgspice.py
 # 
 #         USAGE: --- 
@@ -21,6 +25,7 @@
 #          BUGS: ---
 #         NOTES: ---
 #        AUTHOR: Fahim Khan, fahim.elex@gmail.com
+<<<<<<< HEAD
 <<<<<<< HEAD
 #  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
 #       CREATED: Wednesday 04 March 2015 
@@ -136,6 +141,10 @@ class MainWindow(QtGui.QWidget):
 =======
 #      MODIFIED: Rahul Paknikar, rahulp@iitb.ac.in
 #  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
+=======
+#      MODIFIED: Rahul Paknikar, rahulp@iitb.ac.in
+#  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
+>>>>>>> fellowship2019-python3
 #       CREATED: Wednesday 04 March 2015
 #      REVISION: Friday 14 February 2020
 # =========================================================================
@@ -272,7 +281,10 @@ class MainWindow(QtGui.QWidget):
             - createcreateConvertWidget
             - Convert button => callConvert
         """
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
         self.vbox = QtGui.QVBoxLayout()
         self.hbox = QtGui.QHBoxLayout()
         self.hbox.addStretch(1)

@@ -1,6 +1,12 @@
 from PyQt4 import QtGui
 <<<<<<< HEAD
+<<<<<<< HEAD
 import webbrowser
+=======
+import subprocess
+import platform
+import os
+>>>>>>> fellowship2019-python3
 
 class UserManual(QtGui.QWidget):
     """

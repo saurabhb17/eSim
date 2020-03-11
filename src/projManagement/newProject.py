@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #===============================================================================
 #
+=======
+# =========================================================================
+>>>>>>> fellowship2019-python3
 #          FILE: newProject.py
 # 
 #         USAGE: --- 
@@ -23,6 +27,7 @@
 #         NOTES: ---
 #        AUTHOR: Fahim Khan, fahim.elex@gmail.com
 <<<<<<< HEAD
+<<<<<<< HEAD
 #  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
 #       CREATED: Wednesday 12 February 2015 
 #      REVISION:  ---
@@ -32,6 +37,10 @@ from Validation import Validation
 =======
 #      MODIFIED: Rahul Paknikar, rahulp@iitb.ac.in
 #  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
+=======
+#      MODIFIED: Rahul Paknikar, rahulp@iitb.ac.in
+#  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
+>>>>>>> fellowship2019-python3
 #       CREATED: Wednesday 12 February 2015
 #      REVISION: Friday 14 February 2020
 # =========================================================================

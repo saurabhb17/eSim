@@ -1,6 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #===============================================================================
 #
+=======
+# =========================================================================
+>>>>>>> fellowship2019-python3
 #          FILE: Workspace.py
 # 
 #         USAGE: --- 
@@ -22,6 +26,7 @@
 #         NOTES: ---
 #        AUTHOR: Fahim Khan, fahim.elex@gmail.com
 <<<<<<< HEAD
+<<<<<<< HEAD
 #  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
 #       CREATED: Wednesday 05 February 2015 
 #      REVISION:  ---
@@ -29,19 +34,30 @@
 =======
 #      MODIFIED: Rahul Paknikar, rahulp@iitb.ac.in
 #  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
+=======
+#      MODIFIED: Rahul Paknikar, rahulp@iitb.ac.in
+#  ORGANIZATION: eSim team at FOSSEE, IIT Bombay.
+>>>>>>> fellowship2019-python3
 #       CREATED: Wednesday 05 February 2015
 #      REVISION: Friday 14 February 2020
 # =========================================================================
 
+<<<<<<< HEAD
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+>>>>>>> fellowship2019-python3
 from PyQt4 import QtCore, QtGui
 from configuration.Appconfig import Appconfig
 import time
 import os
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import json
 >>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
+=======
+import json
+>>>>>>> fellowship2019-python3
 
 
 class Workspace(QtGui.QWidget):
@@ -114,6 +130,7 @@ class Workspace(QtGui.QWidget):
         self.cancelbtn = QtGui.QPushButton('Cancel')
         self.cancelbtn.clicked.connect(self.defaultWorkspace)
 <<<<<<< HEAD
+<<<<<<< HEAD
         #Layout
         self.grid.addWidget(self.note, 0,0,1,15)
         self.grid.addWidget(self.workspace_label, 2,1)
@@ -124,6 +141,8 @@ class Workspace(QtGui.QWidget):
     
         self.setGeometry(QtCore.QRect(500,250,400,400))
 =======
+=======
+>>>>>>> fellowship2019-python3
 
         # Checkbox
         self.chkbox = QtGui.QCheckBox('Set Default', self)
@@ -144,6 +163,7 @@ class Workspace(QtGui.QWidget):
         self.setWindowTitle("eSim")
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
         self.note.setReadOnly(True)
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.setWindowIcon(QtGui.QIcon('../../images/logo.png'))
         self.setLayout(self.grid)
@@ -198,6 +218,10 @@ class Workspace(QtGui.QWidget):
 =======
         self.setWindowIcon(QtGui.QIcon('images/logo.png'))
         self.setLayout(self.grid)
+=======
+        self.setWindowIcon(QtGui.QIcon('images/logo.png'))
+        self.setLayout(self.grid)
+>>>>>>> fellowship2019-python3
 
     def defaultWorkspace(self):
         print("Default workspace selected : " +
