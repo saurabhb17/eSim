@@ -1,5 +1,8 @@
 EESchema Schematic File Version 2
+<<<<<<< HEAD
 LIBS:RLC-rescue
+=======
+>>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
 LIBS:eSim_Analog
 LIBS:eSim_Devices
 LIBS:eSim_Digital
@@ -54,7 +57,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
+<<<<<<< HEAD
 L R-RESCUE-RLC R1
+=======
+L R R1
+>>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
 U 1 1 56C172A1
 P 4850 2700
 F 0 "R1" H 4900 2830 50  0000 C CNN
@@ -65,7 +72,11 @@ F 3 "" V 4900 2750 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+<<<<<<< HEAD
 L L-RESCUE-RLC L1
+=======
+L L L1
+>>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
 U 1 1 56C172D6
 P 3800 3200
 F 0 "L1" H 5750 3700 50  0000 C CNN

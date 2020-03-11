@@ -4,6 +4,7 @@ LIBS:eSim_Devices
 LIBS:eSim_Digital
 LIBS:eSim_Hybrid
 LIBS:eSim_Miscellaneous
+LIBS:eSim_Plot
 LIBS:eSim_Power
 LIBS:eSim_Sources
 LIBS:eSim_Subckt
@@ -36,6 +37,7 @@ LIBS:linear
 LIBS:regul
 LIBS:74xx
 LIBS:cmos4000
+LIBS:Series_Resonance-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -118,12 +120,12 @@ out
 Wire Wire Line
 	4200 2500 4250 2500
 Wire Wire Line
-	4250 2500 4250 2650
+	4250 2450 4250 2650
 Connection ~ 4250 2650
 Wire Wire Line
 	6400 2500 6350 2500
 Wire Wire Line
-	6350 2500 6350 2650
+	6350 2450 6350 2650
 Connection ~ 6350 2650
 $Comp
 L AC v1
@@ -138,4 +140,28 @@ F 3 "" H 4200 3300 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6400 2650 6400 2900
+$Comp
+L plot_v1 U1
+U 1 1 56D87244
+P 4250 2650
+F 0 "U1" H 4250 3150 60  0000 C CNN
+F 1 "plot_v1" H 4450 3000 60  0000 C CNN
+F 2 "" H 4250 2650 60  0000 C CNN
+F 3 "" H 4250 2650 60  0000 C CNN
+	1    4250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L plot_v1 U2
+U 1 1 56D8727C
+P 6350 2650
+F 0 "U2" H 6350 3150 60  0000 C CNN
+F 1 "plot_v1" H 6550 3000 60  0000 C CNN
+F 2 "" H 6350 2650 60  0000 C CNN
+F 3 "" H 6350 2650 60  0000 C CNN
+	1    6350 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 2500
+Connection ~ 6350 2500
 $EndSCHEMATC

@@ -1,4 +1,25 @@
+<<<<<<< HEAD
 *.pyc
 nghdl*
 Examples/*/*_i.txt
 Examples/*/*_v.txt
+=======
+*.bak
+*.cir.ckt
+*.log
+*.orig
+*.net
+*.pyc
+*.rej
+_saved_*
+*.swp
+*~
+Examples/*/*_i.txt
+Examples/*/*_v.txt
+esim-start.sh
+esim.desktop
+nghdl*
+tags
+build/
+dist/
+>>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b

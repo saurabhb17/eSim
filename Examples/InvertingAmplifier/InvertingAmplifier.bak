@@ -4,6 +4,7 @@ LIBS:eSim_Devices
 LIBS:eSim_Digital
 LIBS:eSim_Hybrid
 LIBS:eSim_Miscellaneous
+LIBS:eSim_Plot
 LIBS:eSim_Power
 LIBS:eSim_Sources
 LIBS:eSim_Subckt
@@ -36,6 +37,7 @@ LIBS:linear
 LIBS:regul
 LIBS:74xx
 LIBS:cmos4000
+LIBS:InvertingAmplifier-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -136,7 +138,7 @@ in
 Wire Wire Line
 	4900 3150 4950 3150
 Wire Wire Line
-	4950 3150 4950 3300
+	4950 3100 4950 3300
 Connection ~ 4950 3300
 Connection ~ 6700 3400
 $Comp
@@ -161,10 +163,10 @@ F 3 "" H 7200 3400 50  0000 C CNN
 	1    7200 3400
 	1    0    0    -1  
 $EndComp
-Text GLabel 6850 3250 1    60   Input ~ 0
+Text GLabel 6950 3250 2    60   Input ~ 0
 out
 Wire Wire Line
-	6850 3250 6850 3400
+	6850 3150 6850 3400
 Connection ~ 6850 3400
 $Comp
 L R R4
@@ -181,4 +183,30 @@ Wire Wire Line
 	5800 3500 5600 3500
 Wire Wire Line
 	5600 3500 5600 3550
+$Comp
+L plot_v1 U1
+U 1 1 56D45D15
+P 4950 3300
+F 0 "U1" H 4950 3800 60  0000 C CNN
+F 1 "plot_v1" H 5150 3650 60  0000 C CNN
+F 2 "" H 4950 3300 60  0000 C CNN
+F 3 "" H 4950 3300 60  0000 C CNN
+	1    4950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L plot_v1 U2
+U 1 1 56D45D99
+P 6850 3350
+F 0 "U2" H 6850 3850 60  0000 C CNN
+F 1 "plot_v1" H 7050 3700 60  0000 C CNN
+F 2 "" H 6850 3350 60  0000 C CNN
+F 3 "" H 6850 3350 60  0000 C CNN
+	1    6850 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3250 6850 3250
+Connection ~ 6850 3250
+Connection ~ 4950 3150
 $EndSCHEMATC

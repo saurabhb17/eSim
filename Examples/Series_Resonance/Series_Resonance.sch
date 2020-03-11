@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Series_Resonance-rescue
 LIBS:eSim_Analog
 LIBS:eSim_Devices
 LIBS:eSim_Digital
@@ -53,7 +54,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R1
+L R-RESCUE-Series_Resonance R1
 U 1 1 56C172A1
 P 4850 2700
 F 0 "R1" H 4900 2830 50  0000 C CNN
@@ -64,7 +65,7 @@ F 3 "" V 4900 2750 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L1
+L L-RESCUE-Series_Resonance L1
 U 1 1 56C172D6
 P 5850 1250
 F 0 "L1" H 7800 1750 50  0000 C CNN

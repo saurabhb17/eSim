@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:InvertingAmplifier-rescue
 LIBS:eSim_Analog
 LIBS:eSim_Devices
 LIBS:eSim_Digital
@@ -64,7 +65,7 @@ F 3 "" H 6000 3400 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-InvertingAmplifier R1
 U 1 1 56A88DB5
 P 5250 3350
 F 0 "R1" H 5300 3480 50  0000 C CNN
@@ -75,7 +76,7 @@ F 3 "" V 5300 3400 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-InvertingAmplifier R2
 U 1 1 56A88DD8
 P 6100 2850
 F 0 "R2" H 6150 2980 50  0000 C CNN
@@ -142,7 +143,7 @@ Wire Wire Line
 Connection ~ 4950 3300
 Connection ~ 6700 3400
 $Comp
-L R R3
+L R-RESCUE-InvertingAmplifier R3
 U 1 1 56A890CA
 P 7000 3450
 F 0 "R3" H 7050 3580 50  0000 C CNN
@@ -169,7 +170,7 @@ Wire Wire Line
 	6850 3150 6850 3400
 Connection ~ 6850 3400
 $Comp
-L R R4
+L R-RESCUE-InvertingAmplifier R4
 U 1 1 56A891BE
 P 5550 3650
 F 0 "R4" H 5600 3780 50  0000 C CNN

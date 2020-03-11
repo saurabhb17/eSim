@@ -10,6 +10,7 @@ Table of contents
 
 
 
+<<<<<<< HEAD
 1. eSim installation in Ubuntu.
     
    After downloading eSim, extract it using: 
@@ -25,11 +26,33 @@ Table of contents
    Above script will install eSim along with dependencies.
 
    Please report any eSim installation related issue/error at forums.fossee.in
+=======
+1. eSim installation in Ubuntu OS
+    
+   	After downloading eSim, extract it using: 
+  
+   		$ unzip eSim-2.0.zip
+
+   	Now change directories in to the top-level eSim directory (where this INSTALL file can be found).
+
+   	To install eSim and other dependencies, run the following command :
+
+   		$ ./install-eSim.sh --install
+
+   	Above script will install eSim along with dependencies.
+
+   	To uninstall eSim and all of its components, run the following command :
+
+   		$ ./install-eSim.sh --uninstall
+
+   	Please report any eSim installation related issue/error at forums.fossee.in
+>>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
 
    How to Run eSim
    =================
    
    A. Through Terminal
+<<<<<<< HEAD
    $ esim
 
    B. Double click eSim desktop icon
@@ -45,4 +68,20 @@ Table of contents
 
    Note : Please make you run it as administrator otherwise it won't set the environment variable properly.
 
+=======
+   		
+   		$ esim
+
+   B. Double click eSim desktop icon
+
+
+
+2. eSim installation in Windows OS
+
+   Download eSim for Windows OS from "https://esim.fossee.in/". Disable the antivirus (if any).
+
+   Now double click on eSim installer and then follow the instruction to install eSim.
+
+   To uninstall eSim and all of its components, run the uninstaller "uninst-eSim.exe" located at top-level eSim directory (where this INSTALL file can be found).
+>>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
 

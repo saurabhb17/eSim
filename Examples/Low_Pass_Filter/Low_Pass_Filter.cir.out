@@ -2,7 +2,7 @@
 
 r1  in out 1k
 c1  out gnd 10u
-v1 in gnd  ac 10 0
+v1 in gnd  ac 10 90
 * u1  in plot_v1
 * u2  out plot_v1
 * u3  out plot_log

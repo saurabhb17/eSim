@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 update=Mon Jan 13 08:43:27 2020
+=======
+update=Fri May 17 12:47:12 2019
+>>>>>>> 6ebbcc31ea0ce5c78c94718e2e46d87592c5d22b
 version=1
 last_client=eeschema
 [general]
